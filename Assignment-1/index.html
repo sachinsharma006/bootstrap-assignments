@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap Assignment - 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col mt-2">
+          <h1 class="text-center">FORM</h1>
+        </div>
+        <div class="col mt-2">
+          <h1 class="text-center">TABLE</h1>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col bg-info bg-gradient container-fluid">
+          <form action="">
+            <div class="row">
+              <!-- First Name -->
+              <div class="row mt-3">
+                <label for="name" class="col-3">Name : </label>
+                <input
+                  type="text"
+                  placeholder="Enter full Name"
+                  class="col-4"
+                />
+              </div>
+              <div class="row mt-3">
+                <label for="fName" class="col-3">Father's Name : </label>
+                <input type="text" class="col-4" />
+              </div>
+              <div class="row mt-3">
+                <label for="mName" class="col-3">Mother's Name : </label>
+                <input type="text" class="col-4" />
+              </div>
+              <div class="row mt-3">
+                <label for="phone" class="col-3">Phone Number : </label>
+                <input type="number" class="col-4" placeholder="017xxxxxxx" />
+              </div>
+              <div class="row mt-3">
+                <label for="email" class="col-3">Email : </label>
+                <input
+                  type="email"
+                  placeholder="sample@example.com"
+                  class="col-4"
+                />
+              </div>
+
+              <div class="row mt-3">
+                <label for="Gender" class="col-3 form-label">Gender : </label>
+                <div class="col-6 p-0">
+                  <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" />
+                    <label for="Gender">Male</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" />
+                    <label for="Gender" class="form-check-label">Female</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" />
+                    <label for="Gender">Other</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="row">
+                  <label for="name" class="col-3">Date Of Birth </label>
+                  <div class="col-6 p-1">
+                    <input type="text" class="w-25" />-
+                    <input type="text" class="w-25" />-
+                    <input type="text" class="w-25" /> (dd-mm-yyyy)
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <label for="address" class="col-3">Address : </label>
+                <input
+                  type="text"
+                  class="col p-0"
+                  name="address"
+                  id="address"
+                  placeholder="Street:-    House:-     Road:-"
+                />
+              </div>
+              <div class="row mt-3">
+                <label for="bloodGroup" class="col-3">Blood Group : </label>
+                <div class="col p-0">
+                  <select name="bloodGroup" id="bloodGroup" class="col">
+                    <option value="select" selected>Select</option>
+                    <option value="AB+">AB+</option>
+                    <option value="B-">B-</option>
+                    <option value="B+">B+</option>
+                    <option value="O-">O-</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <label for="department" class="col-3" id="department"
+                  >Department :
+                </label>
+                <div class="col-6 p-0">
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="department" class="form-check-label">CSE</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="department" class="form-check-label">EEE</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="department" class="form-check-label">BBA</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <label for="department" class="col" id="department"
+                  >Course :
+                </label>
+                <div class="col-9 p-0">
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label">C</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label">C++</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label">JAVA</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label">AI</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label"
+                      >Machine Learning</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" />
+                    <label for="course" class="form-check-label"
+                      >Robotics</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <label for="photo" class="col-3">Photo : </label>
+                <input type="file" class="col-5 p-0" />
+              </div>
+            </div>
+
+            <div class="submission mt-2">
+              <input type="submit" class="bg-transparent border-0 text-decoration-underline text-primary" value="Submit">
+              <input type="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
+        <div class="col container-fluid ">
+          <table class="table table-bordered align-middle bg-light bg-gradient">
+            <thead>
+              <tr>
+                <th>SNo.</th>
+                <th>Name</th>
+                <th>Phone no</th>
+                <th>Gender</th>
+                <th>City</th>
+                <th>Hobbies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Sachin Sharma</td>
+                <td>1111111111</td>
+                <td>Male</td>
+                <td>Aligarh</td>
+                <td rowspan="2" class="align-middle">Writing</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dev Sharma</td>
+                <td>9999999999</td>
+                <td>Male</td>
+                <td>Mumbai</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Raj Agnihotri</td>
+                <td>2929292929</td>
+                <td>Male</td>
+                <td>Mathura</td>
+                <td>Singing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

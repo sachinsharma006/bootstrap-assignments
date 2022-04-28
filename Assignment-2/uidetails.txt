@@ -1,0 +1,4 @@
+color = #2653A7
+background = #F5F5F5
+form = #EBECF0
+marker1 = #EDEEF1

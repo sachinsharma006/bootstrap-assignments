@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+header,
+.btnl {
+  font-size: large;
+  color: #2653a7;
+  font-weight: 500;
+}
+header {
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+}
+.btnl {
+  border-radius: 50px;
+  background: #edeef1;
+}
+header button {
+  background: #e8e9ee;
+}
+main,h3 {
+  color: #2653a7;
+}
+.content1 {
+  color: rgba(7, 30, 84, 0.8);
+  text-align: justify;
+}
+.content2 {
+    color: #071e54;
+}
+.form-heading {
+    font-size: 22px;
+    font-weight: 500;
+    color: #264a9f;
+}
+.form {
+    box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right,#eff0f3,#e5e6eb);
+}
+.form input,.prefix {
+    border-radius: 50px;
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+}
