@@ -39,9 +39,34 @@ main,h3 {
 .form {
     box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
     border-radius: 20px;
+    color: rgba(7,30,84,.3);
     background-image: linear-gradient(to bottom right,#eff0f3,#e5e6eb);
 }
 .form input,.prefix {
     border-radius: 50px;
+    color: rgba(7,30,84,.3);
+    background: transparent;
     box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+}
+.form input::placeholder {
+    color: #bfc3cf;
+}
+.prefix-btn {
+    background: transparent linear-gradient(276deg,rgba(13,53,148,.898039),#35d3e1) 0 0 no-repeat padding-box;
+    color: #fff;
+    border-radius: 20px;
+}
+.card {
+    background: #ECEDF1;
+}
+.card h2 {
+    color: #264a9f;
+    border: none;
+}
+.bl {
+    border-right: 2px dotted gray ;
+    font-size: smaller;
+}
+.blr {
+    font-size: smaller;
 }

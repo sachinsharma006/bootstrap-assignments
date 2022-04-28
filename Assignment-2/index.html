@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div>
     <header class="mt-4 mx-5">
       <div class="navbar px-5 w-100 mx-3">
         <div class="container-fluid mx-5">
-          <div class="w-100">
+          <div class="w-100 mx-5">
             <div class="d-flex flex-row justify-content-between">
               <div class="logo">
                 <button
@@ -66,8 +67,8 @@
     <main class="mt-4 mx-5 container-fluid">
       <div class="container-fluid mx-5">
         <div class="mx-5">
-          <div class="row mt-5">
-            <div class="col-5">
+          <div class="row mx-5 mt-5">
+            <div class="col-5 mx-5">
               <h2>Become an Agent</h2>
               <p class="content1">
                 By becoming an Insurance Agent, you can contribute towards your
@@ -88,41 +89,282 @@
       </div>
     </main>
 
-    <div class="container">
+    <div class="container w-100">
       <div class="content2">
         Get associated with Tata AIG by sharing few of the contact details to
         get back:
       </div>
-      <form action="" class="form">
+      <form action="" class="form w-100">
         <div class="form-heading mx-5 p-4">Details Required</div>
-        <div class="row p-3 mx-5">
-          <div class="col-4 w-100">
+        <div class="row p-3 mx-3">
+          <div class="col-4">
             <label for="Title" class="p-3">Title</label>
-            <div class="col-4 bg-none prefix">
+            <div class="bg-none prefix border-0">
               <select
                 name="prefix"
                 id="prefix"
-                class="w-100 prefix p-2 border-none"
+                class="w-100 prefix p-2 border-0"
               >
                 <option value="Mr.">Mr</option>
                 <option value="Ms">Ms</option>
               </select>
             </div>
           </div>
-          <div class="col-4 w-100">
+          <div class="col-4">
             <label for="Title" class="p-3">First Name</label>
-            <div class="col-4 bg-none prefix">
-              <input type="text" placeholder="First Name" class="w-100 p-2 border-0" />
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="w-100 p-2 border-0"
+              />
             </div>
           </div>
-          <div class="col-4 w-100">
+          <div class="col-4">
             <label for="Title" class="p-3">Last Name</label>
-            <div class="col-4 bg-none prefix">
-              <input type="text" placeholder="Last Name" class="w-100 p-2 border-0"/>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="w-100 p-2 border-0"
+              />
             </div>
+          </div>
+        </div>
+        <div class="row p-3 mx-3">
+          <div class="col-4">
+            <label for="Title" class="p-3">Phone Number</label>
+            <div class="bg-none prefix">
+              <input
+                type="number"
+                class="w-100 p-2 border-0"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">Alternat Mobile Number</label>
+            <div class="bg-none prefix">
+              <input
+                type="number"
+                placeholder="Mobile Number"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">Email</label>
+            <div class="bg-none prefix">
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row p-3 mx-3">
+          <div class="col-4">
+            <label for="Title" class="p-3">City</label>
+            <div class="bg-none prefix">
+              <input
+                type="number"
+                class="w-100 p-2 border-0"
+                name="city"
+                id="city"
+                placeholder="City"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">State</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="Select"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">New To Industry</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="select"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row p-3 mx-3">
+          <div class="col-4">
+            <label for="Title" class="p-3">Current Company Working With</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                class="w-100 p-2 border-0"
+                name="Company"
+                id="Company"
+                placeholder="Company"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">Job Type</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="Select"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">Are You Associated With</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="associated"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row p-3 mx-3">
+          <div class="col-4">
+            <label for="Title" class="p-3">Life Of Business</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                class="w-100 p-2 border-0"
+                name="life"
+                id="life"
+                placeholder="Select"
+              />
+            </div>
+          </div>
+          <div class="col-4">
+            <label for="Title" class="p-3">Annual Business Potential</label>
+            <div class="bg-none prefix">
+              <input
+                type="text"
+                placeholder="Select"
+                class="w-100 p-2 border-0"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <button type="submit" class="btn h-50 w-50 prefix-btn mx-5 mt-3">
+            Proceed
+          </button>
+          <div style="font-size: small; margin-left: 20px; margin-bottom: 20px">
+            By clicking proceed, I agree to override my DNCR
           </div>
         </div>
       </form>
     </div>
+    <section class="w-100 card mt-5 border-0 shadow-none">
+      <div class="row">
+        <div class="card col-12 py-5" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <h2 class="text-center">Why You Should Join Tata AIG</h2>
+              </div>
+              <div class="row mt-4">
+                <div class="col-3 bl">
+                  <div class="row d-flex flex-column">
+                    <div class="d-flex align-center justify-content-center">
+                      <img
+                        height="80"
+                        width="80"
+                        src="./assets/assets(pointers)/verify.svg"
+                        alt="quality"
+                      />
+                    </div>
+                    <div>
+                      <p class="text-center mt-3">
+                        Secure your customers with India’s most trusted brand,
+                        Tata AIG
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 bl">
+                  <div class="row d-flex flex-column">
+                    <div class="d-flex align-center justify-content-center">
+                      <img
+                        height="80"
+                        width="80"
+                        src="./assets/assets(pointers)/security.svg"
+                        alt="quality"
+                      />
+                    </div>
+                    <div>
+                      <p class="text-center mt-3 ">
+                        At Tata AIG we keep our values first i.e. PEOPLE,
+                        EMPATHY, INTEGRITY, CUSTOMER FIRST
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 bl">
+                  <div class="row d-flex flex-column">
+                    <div class="d-flex align-center justify-content-center">
+                      <img
+                        height="80"
+                        width="80"
+                        src="./assets/assets(pointers)/growth.svg"
+                        alt="quality"
+                      />
+                    </div>
+                    <div>
+                      <p class="text-center mt-3 ">
+                        You can look for long term association and growth in your career
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="row d-flex flex-column mx-3">
+                    <div class="d-flex align-center justify-content-center">
+                      <img
+                        height="80"
+                        width="80"
+                        src="./assets/assets(pointers)/money.svg"
+                        alt="quality"
+                      />
+                    </div>
+                    <div>
+                      <p class="text-center mt-3 blr ">
+                        Great earning opportunity along with recognition for your hard work
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-100 card mt-5 border-0 shadow-none bg-transparent">
+      <div class="row mx-5 mt-5">
+        <div class="row">
+          <div class="col-7 mx-5">
+            <h2>What Tata AIG offers you?</h2>
+          </div>
+          <div class="col-4">
+            <img height="80%" width="100%" src="./assets/marker-below-image.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
   </body>
 </html>
