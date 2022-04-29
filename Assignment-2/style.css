@@ -81,17 +81,21 @@ h3 {
 .img-holder2,
 .img-holder3 {
   height: 50px;
-  width: 50px;
+  width: 60px;
   border-radius: 100%;
   background: url(/checkmark.svg),
     transparent linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0
       0 no-repeat padding-box;
 }
-.img-holder2 {
-  height: 50px;
-  width: 65px;
-}
 .img-holder3 {
   height: 50px;
-  width: 45px;
+  width: 50px;
+}
+.img-holdermid {
+  height: 50px;
+  width: 90px;
+  border-radius: 100%;
+  background: url(/checkmark.svg),
+    transparent linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0
+      0 no-repeat padding-box;
 }
