@@ -10,9 +10,11 @@ header,
   font-weight: 500;
 }
 header {
-    position: sticky;
-    top: 0;
-    background: #f5f5f5;
+  position: sticky;
+  width: 100vw;
+  top: 0;
+  background: #f5f5f5;
+  z-index: 1;
 }
 .btnl {
   border-radius: 50px;
@@ -21,7 +23,8 @@ header {
 header button {
   background: #e8e9ee;
 }
-main,h3 {
+main,
+h3 {
   color: #2653a7;
 }
 .content1 {
@@ -29,44 +32,66 @@ main,h3 {
   text-align: justify;
 }
 .content2 {
-    color: #071e54;
+  color: #071e54;
 }
 .form-heading {
-    font-size: 22px;
-    font-weight: 500;
-    color: #264a9f;
+  font-size: 22px;
+  font-weight: 500;
+  color: #264a9f;
 }
 .form {
-    box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
-    border-radius: 20px;
-    color: rgba(7,30,84,.3);
-    background-image: linear-gradient(to bottom right,#eff0f3,#e5e6eb);
+  box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+  border-radius: 20px;
+  color: rgba(7, 30, 84, 0.3);
+  background-image: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
 }
-.form input,.prefix {
-    border-radius: 50px;
-    color: rgba(7,30,84,.3);
-    background: transparent;
-    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+.form input,
+.prefix {
+  border-radius: 50px;
+  color: rgba(7, 30, 84, 0.3);
+  background: transparent;
+  box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
 }
 .form input::placeholder {
-    color: #bfc3cf;
+  color: #bfc3cf;
 }
 .prefix-btn {
-    background: transparent linear-gradient(276deg,rgba(13,53,148,.898039),#35d3e1) 0 0 no-repeat padding-box;
-    color: #fff;
-    border-radius: 20px;
+  background: transparent
+    linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0 0 no-repeat
+    padding-box;
+  color: #fff;
+  border-radius: 20px;
 }
 .card {
-    background: #ECEDF1;
+  background: #ecedf1;
 }
 .card h2 {
-    color: #264a9f;
-    border: none;
+  color: #264a9f;
+  border: none;
 }
 .bl {
-    border-right: 2px dotted gray ;
-    font-size: smaller;
+  border-right: 2px dotted gray;
+  font-size: smaller;
 }
-.blr {
-    font-size: smaller;
+.blr,
+.markers {
+  font-size: 1.1rem;
+}
+.img-holder,
+.img-holder2,
+.img-holder3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: url(/checkmark.svg),
+    transparent linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0
+      0 no-repeat padding-box;
+}
+.img-holder2 {
+  height: 50px;
+  width: 65px;
+}
+.img-holder3 {
+  height: 50px;
+  width: 45px;
 }
