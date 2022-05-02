@@ -99,3 +99,19 @@ h3 {
     transparent linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0
       0 no-repeat padding-box;
 }
+.brdr {
+  border-bottom: 2px dotted gray;
+  position: relative;
+}
+.brdr img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.brdr-r {
+  border-right: 1px solid white;
+}
+footer {
+  background: #18478B;
+  color: white;
+}
